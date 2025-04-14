@@ -1,0 +1,494 @@
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0px;
+    color: #444;
+    font-size: 0.75em;
+    font-family: "Manrope", sans-serif;
+    background-color: #f6f1eb;
+    box-sizing: border-box;
+}
+
+.manrope-uniquifier{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+#header{
+    background-image: url("https://assets.hermes.com/is/image/hermesedito/SH25_PIA-RIVEROLA_DSCF3518_RC%20%281%29?fit=wrap%2C0&wid=1920");
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    font-size: 12px;
+    
+}
+
+#header_container{
+    display: flex;
+    justify-content: right;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 6vh;
+    padding-inline: 1vw;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.header_container_link{
+    text-decoration: none;
+    color: black;
+    margin: 10px 10px;
+    height: 1vh;
+}
+@media (max-width: 768px) {
+    .header_container_link {
+        display: none;
+    }
+    #header_container{
+        height: 0; 
+        overflow: hidden; 
+        padding: 0;
+        margin: 0;
+    }
+    #header_second_utilities_collezioni, #header_second_utilities_search, #header_second_personal_account, #header_second_personal_carrello{
+        display: none;
+    }
+    
+}
+
+#header_second{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 16px;
+    display: flex;
+    align-items: center;
+    height: 7vh;
+    padding-inline: 1.5vw;
+    max-width: 100%;
+    box-sizing: border-box;
+    
+}
+
+#header_second_utilities{
+    width: 40%;
+    height: 5vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 2vw;
+}
+
+#header_second_utilities1{
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+#header_second_utilities2{
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+
+  
+
+#header_second_personal{
+    width: 40%;
+    height: 5vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2vw;
+}
+
+#header_second_utilities3{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#header_second_utilities4{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#header_second_utilities_search{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    width: 8vw;
+}
+
+#header_second_utilities_collezioni, #header_second_utilities_search, .header_second_utilities_icone{
+    padding: 0px 5px;
+}
+
+#header_second_utilities_collezioni{
+    text-decoration: none;
+    color: black;
+}
+
+#header_second_container{
+    height: 60px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+#header_second_container_logo{
+    height: 90%;
+}
+
+#header_second_personal_account, #header_second_personal_carrello{
+    text-decoration: none;
+    color: black;
+}
+
+.header_second_personal_icone, #header_second_personal_account, #header_second_personal_carrello{
+    padding: 0px 5px;
+}
+
+#header_overlay{
+    max-width: 100%;
+    padding: 0px 20px;
+    position: absolute;
+    bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    
+}
+
+#header_overlay_h, #section2_h, #section3_h{
+    font-family: 'Overpass Mono';
+    font-size: 30px;
+}
+
+#header_overlay_p, #section2_p, #section3_p{
+    font-size: 14px;
+}
+
+#header_overlay_a, #section2_a, #section3_a{
+    color: inherit;
+    font-size: 11px;
+    text-underline-offset: 5px;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+    #header_overlay {
+        max-height: 300px;
+    }
+}
+
+
+
+
+
+
+.container_foto {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-inline: 16px;
+    column-gap: 30px;
+    margin-top: 64px;
+    row-gap: 20px;
+}
+
+.item {
+    background-position:top center;
+    justify-content: flex-start;
+    display: block;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+    position: relative;
+ 
+}
+.item img{
+    height: 280px;
+    width: 280px;
+}
+.item p{
+    text-align: left;
+}
+
+
+
+#section2{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    color: #444;
+    text-align: center;
+}
+
+
+
+
+.container1{
+    height: 700px;
+    width: 1260px;
+    margin: 0 auto;
+}
+
+.container1 img{
+    padding-top: 40px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 120px;
+}
+
+#section3 {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    color: #444;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0; 
+}
+
+
+#footer-nav-block{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: 2vw;
+    padding-inline-end: 8vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    box-sizing: border-box;
+}
+
+.footer-nav-block-item {
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px; /* Spazio tra la parola e il +*/
+}
+
+
+/*
+#footer2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+#here-to-help{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+    margin: 10px;
+    min-width: 250px;
+}
+#here-to-help span{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+#here-to-help p, #call-us, #email-us{
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+#newsletter{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.newsletter button {
+    border: 1px solid black;
+    padding: 5px 10px;
+    background: none;
+    cursor: pointer;
+}
+#social{
+    width: 37.5%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: center;
+    gap: 10px;
+}
+#social img {
+    width: 20px;
+    height: 20px;
+}
+*/
+#sub-footer button{
+    text-align: left;
+    font-size: 12px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+}
+
+#copyright {
+    text-align: right;
+    font-size: 12px;
+    margin-top: 20px;
+    padding-inline: 2vw;
+}
+
+
+
+
+/*JAVASCRIPT*/
+#side-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 33.333vw;
+    height: 100vh;
+    background-color: #fffaf3;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: none; /* Inizialmente nascosto */
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+    box-sizing: border-box;
+  }
+  
+  /* Quando il menu è visibile */
+  #side-menu.show {
+    display: flex; /* Mostra il menu quando la classe 'show' è presente */
+  }
+  
+  #close-menu {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: none;
+    font-size: 1.5rem;
+  }
+  
+  .menu-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 14px;
+    padding: 1rem;
+  }
+  
+  .menu-title {
+    font-weight: normal;
+    font-size: 14px;
+  }
+  
+ 
+
+
+
+
+  #menu-footer {
+    width: 100%;
+    margin-top: auto;
+    background-color: #F6F1EB;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 25%;
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .footer-link {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    color: #333;
+    font-size: 12px;
+  }
+
+  .footer-link img {
+    width: 16px;  
+    height: 16px; 
+    padding-left: 10px;
+  }
+  
+  .footer-link:hover span {
+    color: #c65c1a;
+  }
+
+  .menu-link {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+ 
+
+/*  +    */
+  .plus {
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+  }
+  
+  .extra-content {
+    display: none;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .extra-content.show {
+    display: block;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+
+
+
+
+
+/*conservare informazioni negli attributi data-**/
+.info {
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    margin-top: 10px; 
+    font-size: 14px;
+    color: #555;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    display: none; 
+    width: 200px;
+  }
